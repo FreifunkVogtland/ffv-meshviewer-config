@@ -1,0 +1,34 @@
+{
+  "dataPath": "//meshviewer.chemnitz.freifunk.net/ffv/",
+  "siteName": "Freifunk Vogtland",
+  "mapSigmaScale": 0.8,
+  "showContact": false,
+  "maxAge": 14,
+  "mapLayers": [
+    { "name": "MapQuest",
+      "url": "//otile{s}-s.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpg",
+      "config": {
+        "subdomains": "1234",
+        "type": "osm",
+        "attribution": "Tiles &copy; <a href=\"https://www.mapquest.com/\" target=\"_blank\">MapQuest</a>, Data CC-BY-SA OpenStreetMap",
+        "maxZoom": 19
+      }
+    },
+    { "name": "OpenStreetMap.DE"},
+    {
+      "name": "Stamen.TonerLite"
+    }
+  ],
+  "nodeInfos": [{
+  "name": "Clientstatistik",
+  "href": "//meshviewer.chemnitz.freifunk.net/nodes/{NODE_ID}.png",
+  "thumbnail": "//meshviewer.chemnitz.freifunk.net/nodes/{NODE_ID}.png",
+  "caption": "Knoten {NODE_ID}"
+  }],
+  "globalInfos": [{
+    "name": "Wochenstatistik",
+    "href": "//meshviewer.chemnitz.freifunk.net/ffv/globalGraph.png",
+    "thumbnail": "//meshviewer.chemnitz.freifunk.net/ffv/globalGraph.png",
+    "caption": "Bild mit Wochenstatistik"
+  }]
+}
