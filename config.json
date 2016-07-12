@@ -4,7 +4,9 @@
 	"mapSigmaScale": 0.8,
 	"showContact": false,
 	"maxAge": 14,
-	"mapLayers": [{ 
+	"mapLayers": [{
+		"name": "OpenStreetMap.BlackAndWhite"
+	}, {
 		"name": "OpenStreetMap.DE"
 	}, {
 		"name": "Stamen.TonerLite"
