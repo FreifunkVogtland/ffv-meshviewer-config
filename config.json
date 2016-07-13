@@ -5,6 +5,8 @@
 	"showContact": false,
 	"maxAge": 14,
 	"mapLayers": [{
+		"name": "OpenStreetMap"
+	}, {
 		"name": "OpenStreetMap.BlackAndWhite"
 	}, {
 		"name": "OpenStreetMap.DE"
