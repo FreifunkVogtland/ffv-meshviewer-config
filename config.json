@@ -1,26 +1,45 @@
 {
-	"dataPath": "//meshviewer.chemnitz.freifunk.net/ffv/",
-	"siteName": "Freifunk Vogtland",
-	"mapSigmaScale": 0.8,
-	"showContact": false,
-	"maxAge": 14,
-	"mapLayers": [{
-		"name": "OpenStreetMap.BlackAndWhite"
-	}, {
-		"name": "OpenStreetMap.DE"
-	}, {
-		"name": "Stamen.TonerLite"
-	}],
-	"nodeInfos": [{
-		"name": "Clientstatistik",
-		"href": "//meshviewer.chemnitz.freifunk.net/nodes/{NODE_ID}.png",
-		"thumbnail": "//meshviewer.chemnitz.freifunk.net/nodes/{NODE_ID}.png",
-		"caption": "Knoten {NODE_ID}"
-	}],
-	"globalInfos": [{
-		"name": "Wochenstatistik",
-		"href": "//meshviewer.chemnitz.freifunk.net/ffv/globalGraph.png",
-		"thumbnail": "//meshviewer.chemnitz.freifunk.net/ffv/globalGraph.png",
-		"caption": "Bild mit Wochenstatistik"
-	}]
+    "dataPath": "//meshviewer.chemnitz.freifunk.net/ffv/",
+    "siteName": "Freifunk Vogtland",
+    "mapSigmaScale": 0.8,
+    "showContact": false,
+    "maxAge": 14,
+    "mapLayers": [{
+        "name": "Mapbox",
+        "url": "http://b.tiles.mapbox.com/v4/mapquest.streets-mb/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoiZmZ2IiwiYSI6ImNpcW03djhhZDAwMTdoem5ta282ZTJrdnIifQ.Eh0VfV3iIoDbD5VuI0W0fQ",
+        "config": {
+            "subdomains": "1234",
+            "type": "osm",
+            "attribution": "Tiles &copy; <a href=\"https://www.mapbox.com/\" target=\"_blank\">mapbox</a>, Data CC-BY-SA OpenStreetMap",
+            "maxZoom": 19
+        }
+    }, {
+        "name": "Mapbox (Sat)",
+        "url": "https://c.tiles.mapbox.com/v3/tmcw.map-j5fsp01s/{z}/{x}/{y}.png",
+        "config": {
+            "type": "",
+            "attribution": "Tiles &copy; <a href=\"https://www.mapbox.com/\" target=\"_blank\">MapQuest</a>",
+            "maxZoom": 19
+        }
+    }, {
+        "name": "OpenStreetMap.Mapnik"
+    }, {
+        "name": "OpenStreetMap.BlackAndWhite"
+    }, {
+        "name": "OpenStreetMap.DE"
+    }, {
+        "name": "Stamen.TonerLite"
+    }],
+    "nodeInfos": [{
+        "name": "Clientstatistik",
+        "href": "//meshviewer.chemnitz.freifunk.net/nodes/{NODE_ID}.png",
+        "thumbnail": "//meshviewer.chemnitz.freifunk.net/nodes/{NODE_ID}.png",
+        "caption": "Knoten {NODE_ID}"
+    }],
+    "globalInfos": [{
+        "name": "Wochenstatistik",
+        "href": "//meshviewer.chemnitz.freifunk.net/ffv/globalGraph.png",
+        "thumbnail": "//meshviewer.chemnitz.freifunk.net/ffv/globalGraph.png",
+        "caption": "Bild mit Wochenstatistik"
+    }]
 }
