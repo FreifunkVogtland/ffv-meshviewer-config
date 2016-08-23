@@ -31,12 +31,7 @@
         "name": "Stamen.TonerLite"
     }],
     "nodeInfos": [{
-        "name": "Clientstatistik",
-        "href": "//meshviewer.chemnitz.freifunk.net/nodes/{NODE_ID}.png",
-        "thumbnail": "//meshviewer.chemnitz.freifunk.net/nodes/{NODE_ID}.png",
-        "caption": "Knoten {NODE_ID}"
-        },{
-        "name": "Nutzer",
+	"name": "Nutzerstatistik",
         "href": "//stats.chemnitz.freifunk.net/dashboard/db/node?var-node={NODE_ID}&from=now-24h&to=now",
         "thumbnail": "//stats.chemnitz.freifunk.net/render/dashboard-solo/db/node?panelId=1&var-node={NODE_ID}&width=528&height=300&theme=light&from=now-25h",
         "caption": "Für detailierten Verlauf klicken."
