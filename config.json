@@ -1,5 +1,5 @@
 {
-    "dataPath": "//meshviewer.chemnitz.freifunk.net/ffv/",
+    "dataPath": "//vpn01.freifunk-vogtland.net/ffv/",
     "siteName": "Freifunk Vogtland",
     "mapSigmaScale": 0.8,
     "showContact": false,
@@ -38,8 +38,8 @@
     }],
     "globalInfos": [{
         "name": "Wochenstatistik",
-        "href": "//meshviewer.chemnitz.freifunk.net/ffv/globalGraph.png",
-        "thumbnail": "//meshviewer.chemnitz.freifunk.net/ffv/globalGraph.png",
+        "href": "//vpn01.freifunk-vogtland.net/ffv/globalGraph.png",
+        "thumbnail": "//vpn01.freifunk-vogtland.net/ffv/globalGraph.png",
         "caption": "Bild mit Wochenstatistik"
     }]
 }
