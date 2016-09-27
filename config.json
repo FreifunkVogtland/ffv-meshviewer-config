@@ -6,7 +6,7 @@
     "maxAge": 14,
     "mapLayers": [{
         "name": "Mapbox",
-        "url": "http://b.tiles.mapbox.com/v4/mapquest.streets-mb/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoiZmZ2IiwiYSI6ImNpcW03djhhZDAwMTdoem5ta282ZTJrdnIifQ.Eh0VfV3iIoDbD5VuI0W0fQ",
+        "url": "//b.tiles.mapbox.com/v4/mapquest.streets-mb/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoiZmZ2IiwiYSI6ImNpcW03djhhZDAwMTdoem5ta282ZTJrdnIifQ.Eh0VfV3iIoDbD5VuI0W0fQ",
         "config": {
             "subdomains": "1234",
             "type": "osm",
@@ -15,7 +15,7 @@
         }
     }, {
         "name": "Mapbox (Sat)",
-        "url": "https://c.tiles.mapbox.com/v3/tmcw.map-j5fsp01s/{z}/{x}/{y}.png",
+        "url": "//c.tiles.mapbox.com/v3/tmcw.map-j5fsp01s/{z}/{x}/{y}.png",
         "config": {
             "type": "",
             "attribution": "Tiles &copy; <a href=\"https://www.mapbox.com/\" target=\"_blank\">MapQuest</a>",
