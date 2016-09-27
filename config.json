@@ -32,8 +32,8 @@
     }],
     "nodeInfos": [{
 	"name": "Nutzerstatistik",
-        "href": "//stats.chemnitz.freifunk.net/dashboard/db/node?var-node={NODE_ID}&from=now-24h&to=now",
-        "thumbnail": "//stats.chemnitz.freifunk.net/render/dashboard-solo/db/node?panelId=1&var-node={NODE_ID}&width=528&height=300&theme=light&from=now-25h",
+        "href": "//vpn01.freifunk-vogtland.net/stats/dashboard/db/node?var-node={NODE_ID}&from=now-24h&to=now",
+        "thumbnail": "//vpn01.freifunk-vogtland.net/stats/render/dashboard-solo/db/node?panelId=1&var-node={NODE_ID}&width=528&height=300&theme=light&from=now-25h",
         "caption": "Für detailierten Verlauf klicken."
     }],
     "globalInfos": [{
