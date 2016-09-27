@@ -38,8 +38,8 @@
     }],
     "globalInfos": [{
         "name": "Wochenstatistik",
-        "href": "//vpn01.freifunk-vogtland.net/ffv/globalGraph.png",
-        "thumbnail": "//vpn01.freifunk-vogtland.net/ffv/globalGraph.png",
+        "href": "//stats.freifunk-vogtland.net/dashboard/db/global",
+        "thumbnail": "//stats.freifunk-vogtland.net/render/dashboard-solo/db/global?from=now-7d&to=now&theme=light&panelId=1&width=528&height=300",
         "caption": "Bild mit Wochenstatistik"
     }]
 }
