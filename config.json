@@ -6,7 +6,7 @@
     "maxAge": 14,
     "mapLayers": [{
         "name": "Mapbox",
-        "url": "http://b.tiles.mapbox.com/v4/mapquest.streets-mb/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoiZmZ2IiwiYSI6ImNpcW03djhhZDAwMTdoem5ta282ZTJrdnIifQ.Eh0VfV3iIoDbD5VuI0W0fQ",
+        "url": "//b.tiles.mapbox.com/v4/mapquest.streets-mb/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoiZmZ2IiwiYSI6ImNpcW03djhhZDAwMTdoem5ta282ZTJrdnIifQ.Eh0VfV3iIoDbD5VuI0W0fQ",
         "config": {
             "subdomains": "1234",
             "type": "osm",
@@ -15,7 +15,7 @@
         }
     }, {
         "name": "Mapbox (Sat)",
-        "url": "https://c.tiles.mapbox.com/v3/tmcw.map-j5fsp01s/{z}/{x}/{y}.png",
+        "url": "//c.tiles.mapbox.com/v3/tmcw.map-j5fsp01s/{z}/{x}/{y}.png",
         "config": {
             "type": "",
             "attribution": "Tiles &copy; <a href=\"https://www.mapbox.com/\" target=\"_blank\">MapQuest</a>",
@@ -32,14 +32,14 @@
     }],
     "nodeInfos": [{
 	"name": "Nutzerstatistik",
-        "href": "//stats.chemnitz.freifunk.net/dashboard/db/node?var-node={NODE_ID}&from=now-24h&to=now",
-        "thumbnail": "//stats.chemnitz.freifunk.net/render/dashboard-solo/db/node?panelId=1&var-node={NODE_ID}&width=528&height=300&theme=light&from=now-25h",
+        "href": "//stats.freifunk-vogtland.net/dashboard/db/node?var-node={NODE_ID}&from=now-24h&to=now",
+        "thumbnail": "//stats.freifunk-vogtland.net/render/dashboard-solo/db/node?panelId=1&var-node={NODE_ID}&width=528&height=300&theme=light&from=now-25h",
         "caption": "Für detailierten Verlauf klicken."
     }],
     "globalInfos": [{
         "name": "Wochenstatistik",
-        "href": "//vpn01.freifunk-vogtland.net/ffv/globalGraph.png",
-        "thumbnail": "//vpn01.freifunk-vogtland.net/ffv/globalGraph.png",
+        "href": "//stats.freifunk-vogtland.net/dashboard/db/global",
+        "thumbnail": "//stats.freifunk-vogtland.net/render/dashboard-solo/db/global?from=now-7d&to=now&theme=light&panelId=1&width=528&height=300",
         "caption": "Bild mit Wochenstatistik"
     }]
 }
