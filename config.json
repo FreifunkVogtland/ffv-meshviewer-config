@@ -37,6 +37,12 @@
         "caption": "Für detailierten Verlauf klicken."
     }],
     "globalInfos": [{
+        "name": "Jahresstatistik",
+        "href": "//stats.freifunk-vogtland.net/dashboard/file/global.json?from=now-365d&to=now",
+        "thumbnail": "//stats.freifunk-vogtland.net/render/dashboard-solo/file/global.json?from=now-365d&to=now&theme=light&panelId=1&width=528&height=300",
+        "caption": "Bild mit Wochenstatistik"
+    },
+    {
         "name": "Wochenstatistik",
         "href": "//stats.freifunk-vogtland.net/dashboard/file/global.json",
         "thumbnail": "//stats.freifunk-vogtland.net/render/dashboard-solo/file/global.json?from=now-7d&to=now&theme=light&panelId=1&width=528&height=300",
