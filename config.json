@@ -32,14 +32,14 @@
     }],
     "nodeInfos": [{
 	"name": "Nutzerstatistik",
-        "href": "//stats.freifunk-vogtland.net/dashboard/db/node?var-node={NODE_ID}&from=now-24h&to=now",
-        "thumbnail": "//stats.freifunk-vogtland.net/render/dashboard-solo/db/node?panelId=1&var-node={NODE_ID}&width=528&height=300&theme=light&from=now-25h",
+        "href": "//stats.freifunk-vogtland.net/dashboard/file/node.json?var-node={NODE_ID}&from=now-24h&to=now",
+        "thumbnail": "//stats.freifunk-vogtland.net/render/dashboard-solo/file/node.json?panelId=1&var-node={NODE_ID}&width=528&height=300&theme=light&from=now-25h",
         "caption": "Für detailierten Verlauf klicken."
     }],
     "globalInfos": [{
         "name": "Wochenstatistik",
-        "href": "//stats.freifunk-vogtland.net/dashboard/db/global",
-        "thumbnail": "//stats.freifunk-vogtland.net/render/dashboard-solo/db/global?from=now-7d&to=now&theme=light&panelId=1&width=528&height=300",
+        "href": "//stats.freifunk-vogtland.net/dashboard/file/global.json",
+        "thumbnail": "//stats.freifunk-vogtland.net/render/dashboard-solo/file/global.json?from=now-7d&to=now&theme=light&panelId=1&width=528&height=300",
         "caption": "Bild mit Wochenstatistik"
     }]
 }
