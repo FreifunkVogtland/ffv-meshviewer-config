@@ -41,5 +41,10 @@
         "href": "//stats.freifunk-vogtland.net/dashboard/file/global.json",
         "thumbnail": "//stats.freifunk-vogtland.net/render/dashboard-solo/file/global.json?from=now-7d&to=now&theme=light&panelId=1&width=528&height=300",
         "caption": "Bild mit Wochenstatistik"
-    }]
+    }],
+    "hwImg": [{
+        "thumbnail": "https://cdn.rawgit.com/Moorviper/meshviewer_hwpics/master/nodes/{MODELHASH}.svg",
+        "caption": "Knoten {MODELHASH}"
+    }
+  ]
 }
