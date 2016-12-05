@@ -31,9 +31,14 @@
         "name": "Stamen.TonerLite"
     }],
     "nodeInfos": [{
-	"name": "Nutzerstatistik",
+        "name": "Nutzerstatistik",
         "href": "//stats.freifunk-vogtland.net/dashboard/file/node.json?var-node={NODE_ID}&from=now-24h&to=now",
-        "thumbnail": "//stats.freifunk-vogtland.net/render/dashboard-solo/file/node.json?panelId=1&var-node={NODE_ID}&width=528&height=300&theme=light&from=now-25h",
+        "thumbnail": "//stats.freifunk-vogtland.net/render/dashboard-solo/file/node.json?panelId=1&var-node={NODE_ID}&width=528&height=300&theme=light&from=now-24h&to=now",
+        "caption": "Für detailierten Verlauf klicken."
+    },{
+        "name": "Traffic",
+        "href": "//stats.freifunk-vogtland.net/dashboard/file/node.json?var-node={NODE_ID}&from=now-24h&to=now",
+        "thumbnail": "//stats.freifunk-vogtland.net/render/dashboard-solo/file/nodethumbnails.json?panelId=6&var-node={NODE_ID}&width=528&height=300&theme=light&from=now-24h&to=now&hideLegend=true",
         "caption": "Für detailierten Verlauf klicken."
     }],
     "globalInfos": [{
