@@ -54,7 +54,7 @@
         "caption": "Bild mit Wochenstatistik"
     }],
     "hwImg": [{
-        "thumbnail": "https://cdn.rawgit.com/Moorviper/meshviewer_hwpics/master/nodes/{MODELHASH}.svg",
+        "thumbnail": "https://cdn.rawgit.com/FreifunkVogtland/meshviewer_hwpics/master/nodes/{MODELHASH}.svg",
         "caption": "Knoten {MODELHASH}"
     }
   ]
