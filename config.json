@@ -1,5 +1,5 @@
 {
-    "dataPath": "//vpn01.freifunk-vogtland.net/ffv/",
+    "dataPath": "https://vpn01.freifunk-vogtland.net/ffv/",
     "siteName": "Freifunk Vogtland",
     "mapSigmaScale": 0.8,
     "showContact": false,
