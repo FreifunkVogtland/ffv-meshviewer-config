@@ -1,5 +1,5 @@
 {
-    "dataPath": "https://vpn01.freifunk-vogtland.net/ffv/",
+    "dataPath": "//vpn01.freifunk-vogtland.net/ffv/",
     "siteName": "Freifunk Vogtland",
     "mapSigmaScale": 0.8,
     "showContact": false,
@@ -54,7 +54,7 @@
         "caption": "Bild mit Wochenstatistik"
     }],
     "hwImg": [{
-        "thumbnail": "http://vogtland.freifunk.net/meshviewer_hwpics/nodes/{MODELHASH}.svg",
+        "thumbnail": "//vogtland.freifunk.net/meshviewer_hwpics/nodes/{MODELHASH}.svg",
         "caption": "Knoten {MODELHASH}"
     }
   ]
