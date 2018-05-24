@@ -1,5 +1,5 @@
 {
-    "dataPath": "//mapdata.freifunk-vogtland.net/ ",
+    "dataPath": "//mapdata.freifunk-vogtland.net/",
     "siteName": "Freifunk Vogtland",
     "mapSigmaScale": 0.8,
     "showContact": false,
