@@ -118,6 +118,16 @@ module.exports = function () {
         'site': 'ffv',
         'name': 'Freifunk Vogtland'
       }
+    ],
+    'linkList': [
+      {
+        'title': 'Impressum',
+        'href': '//vogtland.freifunk.net/impressum/'
+      },
+      {
+        'title': 'Datenschutz',
+        'href': '//vogtland.freifunk.net/datenschutzerklaerung/'
+      }
     ]
   };
 };
