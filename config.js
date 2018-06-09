@@ -116,7 +116,155 @@ module.exports = function () {
     'siteNames': [
       {
         'site': 'ffv',
-        'name': 'Freifunk Vogtland'
+        'name': 'FFV (Fallback)'
+      },
+      {
+        'site': 'ffv_a',
+        'name': 'FFV Adorf'
+      },
+      {
+        'site': 'ffv_ae',
+        'name': 'FFV Auerbach'
+      },
+      {
+        'site': 'ffv_bb',
+        'name': 'FFV Bad Brambach'
+      },
+      {
+        'site': 'ffv_be',
+        'name': 'FFV Bad Elster'
+      },
+      {
+        'site': 'ffv_b',
+        'name': 'FFV Bergen'
+      },
+      {
+        'site': 'ffv_boe',
+        'name': 'FFV Bösenbrunn'
+      },
+      {
+        'site': 'ffv_eic',
+        'name': 'FFV Eichigt'
+      },
+      {
+        'site': 'ffv_ell',
+        'name': 'FFV Ellefeld'
+      },
+      {
+        'site': 'ffv_els',
+        'name': 'FFV Elsterberg'
+      },
+      {
+        'site': 'ffv_fst',
+        'name': 'FFV Falkenstein'
+      },
+      {
+        'site': 'ffv_gb',
+        'name': 'FFV Grünbach'
+      },
+      {
+        'site': 'ffv_hdg',
+        'name': 'FFV Heinsdorfergrund'
+      },
+      {
+        'site': 'ffv_k',
+        'name': 'FFV Klingenthal'
+      },
+      {
+        'site': 'ffv_le',
+        'name': 'FFV Lengenfeld'
+      },
+      {
+        'site': 'ffv_l',
+        'name': 'FFV Limbach'
+      },
+      {
+        'site': 'ffv_mkn',
+        'name': 'FFV Markneukirchen'
+      },
+      {
+        'site': 'ffv_mtl',
+        'name': 'FFV Mühlental'
+      },
+      {
+        'site': 'ffv_mh',
+        'name': 'FFV Muldenhammer'
+      },
+      {
+        'site': 'ffv_n',
+        'name': 'FFV Netzschkau'
+      },
+      {
+        'site': 'ffv_nsz',
+        'name': 'FFV Neuensalz'
+      },
+      {
+        'site': 'ffv_nmk',
+        'name': 'FFV Neumark'
+      },
+      {
+        'site': 'ffv_nst',
+        'name': 'FFV Neustadt'
+      },
+      {
+        'site': 'ffv_oel',
+        'name': 'FFV Oelsnitz'
+      },
+      {
+        'site': 'ffv_pmf',
+        'name': 'FFV Pausa-Mühltroff'
+      },
+      {
+        'site': 'ffv_pl',
+        'name': 'FFV Plauen'
+      },
+      {
+        'site': 'ffv_poe',
+        'name': 'FFV Pöhl'
+      },
+      {
+        'site': 'ffv_rbh',
+        'name': 'FFV Rosenbach'
+      },
+      {
+        'site': 'ffv_rc',
+        'name': 'FFV Reichenbach'
+      },
+      {
+        'site': 'ffv_rdw',
+        'name': 'FFV Rodewisch'
+      },
+      {
+        'site': 'ffv_s',
+        'name': 'FFV Schöneck'
+      },
+      {
+        'site': 'ffv_sbg',
+        'name': 'FFV Steinberg'
+      },
+      {
+        'site': 'ffv_t',
+        'name': 'FFV Theuma'
+      },
+      {
+        'site': 'ffv_tdf',
+        'name': 'FFV Tirpersdorf'
+      },
+      {
+        'site': 'ffv_tr',
+        'name': 'FFV Treuen'
+      },
+      {
+        'site': 'ffv_tri',
+        'name': 'FFV Triebel'
+      },
+      {
+        'site': 'ffv_wei',
+        'name': 'FFV Weischlitz'
+      },
+      {
+        'site': 'ffv_wer',
+        'name': 'FFV Werda'
       }
     ],
     'linkList': [
