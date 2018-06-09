@@ -265,6 +265,10 @@ module.exports = function () {
       {
         'site': 'ffv_wer',
         'name': 'FFV Werda'
+      },
+      {
+        'site': 'fferz',
+        'name': 'Freifunk Erzgebirge'
       }
     ],
     'linkList': [
