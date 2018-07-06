@@ -51,13 +51,7 @@ module.exports = function () {
         'title': 'Bild mit Wochenstatistik',
       },
       {
-        'name': 'Wochenstatistik',
-        'href': '//stats.freifunk-vogtland.net/dashboard/file/global.json',
-        'image': '//stats.freifunk-vogtland.net/render/d-solo/Zy8gTRgik/global?from=now-7d&to=now&theme=light&panelId=1&width=528&height=300',
-        'title': 'Bild mit Wochenstatistik',
-      },
-      {
-         'name': 'Wochenstatistik (InfluxDB)',
+         'name': 'Wochenstatistik',
          'href': '//stats.freifunk-vogtland.net/d/ffv_globals',
          'image': '//stats.freifunk-vogtland.net/render/d-solo/ffv_globals/globals?panelId=2&from=now-7d&width=528&height=300&theme=light',
          'title': 'Entwicklung der Anzahl der Knoten und der Clients innerhalb der letzten 7 Tage',
