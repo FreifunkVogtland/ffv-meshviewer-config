@@ -46,8 +46,8 @@ module.exports = function () {
     'globalInfos': [
       {
         'name': 'Jahresstatistik',
-        'href': '//stats.freifunk-vogtland.net/d/Zy8gTRgik/global?from=now-365d&to=now',
-        'image': '//stats.freifunk-vogtland.net/render/d-solo/Zy8gTRgik/global?from=now-365d&to=now&theme=light&panelId=1&width=528&height=300',
+         'href': '//stats.freifunk-vogtland.net/d/ffv_globals?from=now-365d',
+         'image': '//stats.freifunk-vogtland.net/render/d-solo/ffv_globals/globals?panelId=2&from=now-365d&width=528&height=300&theme=light',
         'title': 'Bild mit Wochenstatistik',
       },
       {
