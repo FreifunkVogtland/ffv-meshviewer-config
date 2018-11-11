@@ -141,161 +141,161 @@ module.exports = function () {
         12.441329956,
       ]
     ],
-    'siteNames': [
+    'domainNames': [
       {
-        'site': 'ffv',
+        'domain': 'ffv',
         'name': 'FFV (Fallback)'
       },
       {
-        'site': 'ffv_a',
+        'domain': 'ffv_a',
         'name': 'FFV Adorf'
       },
       {
-        'site': 'ffv_ae',
+        'domain': 'ffv_ae',
         'name': 'FFV Auerbach'
       },
       {
-        'site': 'ffv_bb',
+        'domain': 'ffv_bb',
         'name': 'FFV Bad Brambach'
       },
       {
-        'site': 'ffv_be',
+        'domain': 'ffv_be',
         'name': 'FFV Bad Elster'
       },
       {
-        'site': 'ffv_b',
+        'domain': 'ffv_b',
         'name': 'FFV Bergen'
       },
       {
-        'site': 'ffv_boe',
+        'domain': 'ffv_boe',
         'name': 'FFV Bösenbrunn'
       },
       {
-        'site': 'ffv_eic',
+        'domain': 'ffv_eic',
         'name': 'FFV Eichigt'
       },
       {
-        'site': 'ffv_ell',
+        'domain': 'ffv_ell',
         'name': 'FFV Ellefeld'
       },
       {
-        'site': 'ffv_els',
+        'domain': 'ffv_els',
         'name': 'FFV Elsterberg'
       },
       {
-        'site': 'ffv_fst',
+        'domain': 'ffv_fst',
         'name': 'FFV Falkenstein'
       },
       {
-        'site': 'ffv_gb',
+        'domain': 'ffv_gb',
         'name': 'FFV Grünbach'
       },
       {
-        'site': 'ffv_hdg',
+        'domain': 'ffv_hdg',
         'name': 'FFV Heinsdorfergrund'
       },
       {
-        'site': 'ffv_k',
+        'domain': 'ffv_k',
         'name': 'FFV Klingenthal'
       },
       {
-        'site': 'ffv_le',
+        'domain': 'ffv_le',
         'name': 'FFV Lengenfeld'
       },
       {
-        'site': 'ffv_l',
+        'domain': 'ffv_l',
         'name': 'FFV Limbach'
       },
       {
-        'site': 'ffv_mkn',
+        'domain': 'ffv_mkn',
         'name': 'FFV Markneukirchen'
       },
       {
-        'site': 'ffv_mtl',
+        'domain': 'ffv_mtl',
         'name': 'FFV Mühlental'
       },
       {
-        'site': 'ffv_mh',
+        'domain': 'ffv_mh',
         'name': 'FFV Muldenhammer'
       },
       {
-        'site': 'ffv_n',
+        'domain': 'ffv_n',
         'name': 'FFV Netzschkau'
       },
       {
-        'site': 'ffv_nsz',
+        'domain': 'ffv_nsz',
         'name': 'FFV Neuensalz'
       },
       {
-        'site': 'ffv_nmk',
+        'domain': 'ffv_nmk',
         'name': 'FFV Neumark'
       },
       {
-        'site': 'ffv_nst',
+        'domain': 'ffv_nst',
         'name': 'FFV Neustadt'
       },
       {
-        'site': 'ffv_oel',
+        'domain': 'ffv_oel',
         'name': 'FFV Oelsnitz'
       },
       {
-        'site': 'ffv_pmf',
+        'domain': 'ffv_pmf',
         'name': 'FFV Pausa-Mühltroff'
       },
       {
-        'site': 'ffv_pl',
+        'domain': 'ffv_pl',
         'name': 'FFV Plauen'
       },
       {
-        'site': 'ffv_poe',
+        'domain': 'ffv_poe',
         'name': 'FFV Pöhl'
       },
       {
-        'site': 'ffv_rbh',
+        'domain': 'ffv_rbh',
         'name': 'FFV Rosenbach'
       },
       {
-        'site': 'ffv_rc',
+        'domain': 'ffv_rc',
         'name': 'FFV Reichenbach'
       },
       {
-        'site': 'ffv_rdw',
+        'domain': 'ffv_rdw',
         'name': 'FFV Rodewisch'
       },
       {
-        'site': 'ffv_s',
+        'domain': 'ffv_s',
         'name': 'FFV Schöneck'
       },
       {
-        'site': 'ffv_sbg',
+        'domain': 'ffv_sbg',
         'name': 'FFV Steinberg'
       },
       {
-        'site': 'ffv_t',
+        'domain': 'ffv_t',
         'name': 'FFV Theuma'
       },
       {
-        'site': 'ffv_tdf',
+        'domain': 'ffv_tdf',
         'name': 'FFV Tirpersdorf'
       },
       {
-        'site': 'ffv_tr',
+        'domain': 'ffv_tr',
         'name': 'FFV Treuen'
       },
       {
-        'site': 'ffv_tri',
+        'domain': 'ffv_tri',
         'name': 'FFV Triebel'
       },
       {
-        'site': 'ffv_wei',
+        'domain': 'ffv_wei',
         'name': 'FFV Weischlitz'
       },
       {
-        'site': 'ffv_wer',
+        'domain': 'ffv_wer',
         'name': 'FFV Werda'
       },
       {
-        'site': 'fferz',
+        'domain': 'fferz',
         'name': 'Freifunk Erzgebirge'
       }
     ],
