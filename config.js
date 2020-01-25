@@ -1,3 +1,9 @@
+// SPDX-License-Identifier: CC0-1.0
+/* SPDX-FileCopyrightText: 2016-2018, André Fiedler <mail@andrefiedler.de>
+ * SPDX-FileCopyrightText: 2016-2020, Sven Eckelmann <sven@narfation.org>
+ * SPDX-FileCopyrightText: 2017-2018, Enrico Meinel <mail@enricomeinel.de>
+ */
+
 module.exports = function () {
   return {
     // Variables are NODE_ID and NODE_NAME (only a-z0-9\- other chars are replaced with _)
