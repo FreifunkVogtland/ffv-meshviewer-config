@@ -109,15 +109,6 @@ module.exports = function () {
         }
       },
       {
-        'name': 'OpenStreetMap.BlackAndWhite',
-        'url': '//{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png',
-        'config': {
-            'type': 'osm',
-            'attribution': '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-            'maxZoom': 18
-        }
-      },
-      {
         'name': 'OpenStreetMap.DE',
         'url': '//{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png',
         'config': {
