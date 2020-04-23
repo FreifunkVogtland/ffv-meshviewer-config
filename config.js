@@ -77,20 +77,25 @@ module.exports = function () {
     'mapLayers': [
       {
         'name': 'Mapbox',
-        'url': '//b.tiles.mapbox.com/v4/mapquest.streets-mb/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoiZmZ2IiwiYSI6ImNpcW03djhhZDAwMTdoem5ta282ZTJrdnIifQ.Eh0VfV3iIoDbD5VuI0W0fQ',
+        'url': '//api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
         'config': {
             'subdomains': '1234',
+            'id': 'mapbox/streets-v11',
+            'accessToken': 'pk.eyJ1IjoiZmZ2IiwiYSI6ImNpcW03djhhZDAwMTdoem5ta282ZTJrdnIifQ.Eh0VfV3iIoDbD5VuI0W0fQ',
             'type': 'osm',
-            'attribution': 'Tiles &copy; <a href=\'https://www.mapbox.com/\' target=\'_blank\'>mapbox</a>, Data CC-BY-SA OpenStreetMap',
+            'attribution': '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
             'maxZoom': 19
         }
       },
       {
         'name': 'Mapbox (Sat)',
-        'url': '//c.tiles.mapbox.com/v3/tmcw.map-j5fsp01s/{z}/{x}/{y}.png',
+        'url': '//api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
         'config': {
-            'type': '',
-            'attribution': 'Tiles &copy; <a href=\'https://www.mapbox.com/\' target=\'_blank\'>MapQuest</a>',
+            'subdomains': '1234',
+            'id': 'mapbox/satellite-streets-v11',
+            'accessToken': 'pk.eyJ1IjoiZmZ2IiwiYSI6ImNpcW03djhhZDAwMTdoem5ta282ZTJrdnIifQ.Eh0VfV3iIoDbD5VuI0W0fQ',
+            'type': 'osm',
+            'attribution': '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
             'maxZoom': 19
         }
       },
