@@ -91,7 +91,7 @@ module.exports = function () {
         'config': {
             'subdomains': '1234',
             'id': 'mapbox/streets-v11',
-            'accessToken': 'pk.eyJ1IjoiZmZ2IiwiYSI6ImNpcW03djhhZDAwMTdoem5ta282ZTJrdnIifQ.Eh0VfV3iIoDbD5VuI0W0fQ',
+            'accessToken': 'pk.eyJ1IjoiZmZ2IiwiYSI6ImNrY2xrN3k4eTFoanQyc28zdGZkaXhuaHUifQ.32VCC_RUt2mV8ghTLPnKow',
             'type': 'osm',
             'attribution': '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
             'maxZoom': 19
@@ -103,7 +103,7 @@ module.exports = function () {
         'config': {
             'subdomains': '1234',
             'id': 'mapbox/satellite-streets-v11',
-            'accessToken': 'pk.eyJ1IjoiZmZ2IiwiYSI6ImNpcW03djhhZDAwMTdoem5ta282ZTJrdnIifQ.Eh0VfV3iIoDbD5VuI0W0fQ',
+            'accessToken': 'pk.eyJ1IjoiZmZ2IiwiYSI6ImNrY2xrN3k4eTFoanQyc28zdGZkaXhuaHUifQ.32VCC_RUt2mV8ghTLPnKow',
             'type': 'osm',
             'attribution': '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
             'maxZoom': 19
