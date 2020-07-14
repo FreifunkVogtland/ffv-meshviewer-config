@@ -76,6 +76,16 @@ module.exports = function () {
     'siteName': 'Freifunk Vogtland',
     'mapLayers': [
       {
+        'name': 'OpenStreetMap.Humanitarian',
+        'url': '//{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
+        'config': {
+            'subdomains': 'ab',
+            'type': 'osm',
+            'attribution': '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>. Tiles style by <a href="https://www.hotosm.org/" target="_blank">Humanitarian OpenStreetMap Team</a> hosted by <a href="https://openstreetmap.fr/" target="_blank">OpenStreetMap France</a>. <a href="https://wiki.osmfoundation.org/wiki/Terms_of_Use" target="_blank">Website and API terms</a>',
+            'maxZoom': 19
+        }
+      },
+      {
         'name': 'Mapbox',
         'url': '//api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
         'config': {
