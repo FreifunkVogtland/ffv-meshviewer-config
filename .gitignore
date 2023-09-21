@@ -4,5 +4,6 @@
 *
 */
 !.gitignore
-!config.js
+!config.json
+!config.json.license
 !README.rst
