@@ -287,7 +287,9 @@
       "title": "Linkstatistik des letzten Tages des einzelnen Links in beide Richtungen"
     }
   ],
-  "hwImg": "//vogtland.freifunk.net/meshviewer_hwpics/nodes/{MODELHASH}.svg",
+  "devicePictures": "https://map.aachen.freifunk.net/pictures-svg/{MODEL_NORMALIZED}.svg",
+  "devicePicturesSource": "<a href='https://github.com/freifunk/device-pictures'>https://github.com/freifunk/device-pictures</a>",
+  "devicePicturesLicense": "CC-BY-NC-SA 4.0",
   "linkList": [
     {
       "title": "Impressum",
