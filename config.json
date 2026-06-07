@@ -233,49 +233,27 @@
   ],
   "nodeInfos": [
     {
-      "name": "Clientstatistik",
+      "name": "Node Statistik",
       "href": "//stats.freifunk-vogtland.net/d/ffv_node?var-node={NODE_ID}",
-      "image": "//stats.freifunk-vogtland.net/render/d-solo/ffv_node/nodeinfo?panelId=1&var-node={NODE_ID}&from=now-86399s&width=528&height=300&theme=light",
-      "title": "Entwicklung der Anzahl der Clients innerhalb des letzten Tages"
-    },
-    {
-      "name": "Trafficstatistik",
-      "href": "//stats.freifunk-vogtland.net/d/ffv_node?var-node={NODE_ID}",
-      "image": "//stats.freifunk-vogtland.net/render/d-solo/ffv_node/nodeinfo?panelId=2&var-node={NODE_ID}&from=now-86399s&width=528&height=300&theme=light",
-      "title": "Entwicklung des Traffic innerhalb des letzten Tages"
-    },
-    {
-      "name": "Hardwareauslastung",
-      "href": "//stats.freifunk-vogtland.net/d/ffv_node?var-node={NODE_ID}",
-      "image": "//stats.freifunk-vogtland.net/render/d-solo/ffv_node/nodeinfo?panelId=4&var-node={NODE_ID}&from=now-86399s&width=528&height=300&theme=light",
-      "title": "Loadavg und Arbeitspeicherauslastung innerhalb des letzten Tages"
-    },
-    {
-      "name": "Airtime",
-      "href": "//stats.freifunk-vogtland.net/d/ffv_node?var-node={NODE_ID}",
-      "image": "//stats.freifunk-vogtland.net/render/d-solo/ffv_node/nodeinfo?panelId=5&var-node={NODE_ID}&from=now-86399s&width=528&height=300&theme=light",
-      "title": "Auslastung des WLAN-Frequenz innerhalb des letzten Tages"
+      "title": "Node Statistik"
     }
   ],
   "globalInfos": [
     {
       "name": "Jahresstatistik",
       "href": "//stats.freifunk-vogtland.net/d/ffv_globals?from=now-365d",
-      "image": "//stats.freifunk-vogtland.net/render/d-solo/ffv_globals/globals?panelId=2&from=now-365d&width=528&height=300&theme=light",
-      "title": "Bild mit Wochenstatistik"
+      "title": "Node Statistik"
     },
     {
       "name": "Wochenstatistik",
       "href": "//stats.freifunk-vogtland.net/d/ffv_globals",
-      "image": "//stats.freifunk-vogtland.net/render/d-solo/ffv_globals/globals?panelId=2&from=now-7d&width=528&height=300&theme=light",
-      "title": "Entwicklung der Anzahl der Knoten und der Clients innerhalb der letzten 7 Tage"
+      "title": "Wochenstatistik"
     }
   ],
   "linkInfos": [
     {
       "name": "Verlauf min. und max. \u00dcbertragungsqualit\u00e4t aller Links",
       "href": "//stats.freifunk-vogtland.net/d/ffv_link?var-node={SOURCE_ID}&var-nodetolink={TARGET_ID}",
-      "image": "//stats.freifunk-vogtland.net/render/d-solo/ffv_link/link?panelId=7&var-node={SOURCE_ID}&var-nodetolink={TARGET_ID}&from=now-86399s&width=528&height=300&theme=light",
       "title": "Linkstatistik des letzten Tages, min und max aller Links zwischen diesen Knoten"
     }
   ],
@@ -283,7 +261,6 @@
     {
       "name": "Verlauf der \u00dcbertragungsqualit\u00e4t f\u00fcr {TYPE}",
       "href": "//stats.freifunk-vogtland.net/d/ffv_link?var-node={SOURCE_ID}&var-nodetolink={TARGET_ID}&var-source_addr={SOURCE_ADDR}&var-target_addr={TARGET_ADDR}",
-      "image": "//stats.freifunk-vogtland.net/render/d-solo/ffv_link/link?panelId=8&var-node={SOURCE_ID}&var-nodetolink={TARGET_ID}&var-source_addr={SOURCE_ADDR}&var-target_addr={TARGET_ADDR}&from=now-86399s&width=528&height=300&theme=light",
       "title": "Linkstatistik des letzten Tages des einzelnen Links in beide Richtungen"
     }
   ],
